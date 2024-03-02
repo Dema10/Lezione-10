@@ -9,6 +9,10 @@
     color: white;
 }
 
+.modNotte .navBar {
+    background-color: black;
+}
+
 .navBar {
     position: fixed;
     top: 0;
@@ -81,7 +85,7 @@ h1 {
     border-radius: 10px;
 }
 
-.prodotti img {
+.image {
     width: 200px;
 }
 
@@ -92,10 +96,6 @@ h1 {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
-}
-
-.linkAmazonPiu {
-    transform: translate(-50%, -50%) scale(1.2);
 }
 
 .info h4 {
@@ -148,10 +148,6 @@ h1 {
 
 .indirizzo {
     cursor: pointer;
-}
-
-.prodotti:hover img {
-    opacity: 0;
 }
 
 .prodotti:hover .linkAmazon {
